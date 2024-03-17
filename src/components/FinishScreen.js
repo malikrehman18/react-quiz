@@ -6,7 +6,7 @@ function FinishScreen({ points, maxPossiblePoint, highScore, dispatch }) {
         You scored <strong>{points}</strong> out of {maxPossiblePoint} (
         {Math.ceil(percentage)}%)
       </p>
-      <p className="highscore">highScore : {highScore} points</p>
+      <p className="highscore">HighScore : {highScore} points</p>
       <button
         className="btn btn-ui"
         onClick={() => dispatch({ type: "reset" })}
